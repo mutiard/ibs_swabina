@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="UIdeck">
+    <title>Arise Careers || SignUp</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/line-icons.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/main.css">    
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121337032-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121337032-1');
+</script>
+  </head>
+  
+  <body>
+
+   <body>
+ <!-- Header Section Start -->
+    <header id="home" class="hero-area"> 
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <div class="theme-header clearfix">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="lni-menu"></span>
+                <span class="lni-menu"></span>
+                <span class="lni-menu"></span>
+              </button>
+              <a href="index.php" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navbar">
+              <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.php">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services         
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Resume Reach.php">Resume Reach</a></li>
+                    <li><a class="dropdown-item" href="Resume Spotlight.php">Resume Spotlight</a></li>
+                    <li><a class="dropdown-item" href="Resume Writing.php">Resume Writing</a></li>
+                    <li><a class="dropdown-item" href="resume.html">Visual Resume</a></li>
+                    <li><a class="dropdown-item" href="Social Media Profile.php">Social Media Profile</a></li>
+                    <li><a class="dropdown-item" href="Resume Score.php">Resume Score</a></li>
+                    <li><a class="dropdown-item" href="Resume Information.php">Resume Information</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="browse-jobs.php" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Browse Jobs
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="about.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   About Us
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">
+                    Contact
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sign In         
+                  </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="js-login.php?role_id=2">Job Seeker</a></li>
+                    <li><a class="dropdown-item" href="emp-login.php?role_id=1">Employeer</a></li>
+                    </ul>
+                </li>
+                <li class="button-group">
+                  <a href="js-signup.php" class="button btn btn-common">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu" data-logo="assets/img/logo-mobile.png"></div>
+      </nav>
+      <!-- Navbar End -->          
+    </header>
+    <!-- Header Section End -->
+       
+       
+    <!-- Page Header Start -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">         
+          <div class="col-lg-12">
+            <div class="inner-header">
+              <h3>Create Resume</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->     
+
+    <!-- Content section Start --> 
+    <span><center>
+    <section id="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-md-12 col-xs-12">
+            <div class="add-resume box">
+              <div class="post-header">
+                <p>Already have an account? <a href="js-login.php">Click here to login</a></p>
+              </div>
+             <form class="form-ad" method="POST" action="js-signup.php" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label class="control-label">First Name</label>
+                  <input type="text" class="form-control" placeholder="First Name" name="first_name" required>
+                </div>
+                  <div class="form-group">
+                  <label class="control-label">Last Name</label>
+                  <input type="text" class="form-control" placeholder="Last Name" name="last_name" required>
+                </div>
+                 <div class="form-group">
+                  <label class="control-label">Gender</label>
+                  <input type="text" class="form-control" placeholder="M/F" name="gender" required>
+                </div>
+                <div class="form-group">
+                  <label class="control-label"></label>
+                  <label class="control-label">Email</label>
+                  <input type="email" class="form-control" placeholder="Your@domain.com" name="username" required>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Password</label>
+                  <input type="password" class="form-control"  placeholder="password" name="password" required>
+                </div> 
+                <div class="form-group">
+                  <label class="control-label">Confirm Password</label>
+                  <input type="password" class="form-control"  placeholder="re-enter password" name="cpassword" required>
+                </div>  
+                <div class="form-group">
+                  <label class="control-label">Mobile number</label>
+                  <input type="number" class="form-control"  placeholder="Mobile number" name="mobile" required>
+                </div> 
+                <div class="form-group">
+                  <label class="control-label">Work Experience</label>
+                 <select name="experience" id="experience" required>
+				   <option value='1'>Fresher</option><option value='2'>1</option><option value='3'>2</option><option value='4'>3</option><option value='5'>4</option><option value='6'>5</option><option value='7'>6</option><option value='8'>7</option><option value='9'>8</option><option value='10'>9</option><option value='11'>10 or more than 10</option> 
+					</select>
+                </div> 
+                <div class="form-group">
+                  <div class="button-group">
+                    <div class="action-buttons">
+                      <div class="upload-button">
+                        <button class="btn btn-common">Upload Resume</button>
+                        <input id="cover_img_file_2" type="file" name="userfile" accept=".docx,.doc" required>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+                <div class="form-group">
+                  <label class="control-label">Country</label>
+                  <select name="country" id="country" required>
+						<option value="">Select Country </option>
+				   						<option value="1">UAE|UAE</option>
+												<option value="2">Abu Dhabi |UAE</option>
+												<option value="3">Dubai|UAE</option>
+												<option value="4">Sharjah|UAE</option>
+												<option value="5">Ajman|UAE</option>
+												<option value="6">Fujairah|UAE</option>
+												<option value="7">Riyadh|UAE</option>
+												<option value="8">Jeddah|UAE</option>
+												<option value="9">Muscat|UAE</option>
+												<option value="10">Salalah|UAE</option>
+												<option value="11">Kuwait|UAE</option>
+												<option value="12">Doha|UAE</option>
+												<option value="13">Qatar|UAE</option>
+												<option value="14">Egypt|UAE</option>
+												<option value="15">Iraq|UAE</option>
+												<option value="16">Iran|UAE</option>
+												<option value="17">Jordan|UAE</option>
+												<option value="18">Lebanon|UAE</option>
+												<option value="19">Singapore|Singapore</option>
+												<option value="20">Malaysia |Malaysia </option>
+												<option value="21">Australia |Australia </option>
+												<option value="22">New Zealand |New Zealand </option>
+												<option value="23">Eurpoe|Eurpoe</option>
+												<option value="24">UK|UK</option>
+												<option value="25">Canada  |Canada  </option>
+												<option value="26">Russia|Russia</option>
+												<option value="27">Nigeria|Africa</option>
+												<option value="28">Zambia|Africa</option>
+												<option value="29">Kenya|Africa</option>
+												<option value="30">Tanzania|Africa</option>
+												<option value="31">INDIA|IND</option>
+						 
+						</select>
+                </div>  
+                <div class="form-group">
+                  <label class="control-label">Skillsets</label>
+                    <select name="skillset[]" id="skillset" class="chosen" multiple>
+						<option value='6'>Html5</option><option value='7'>CSS3</option><option value='8'>Javascript</option><option value='9'>Adobe Photoshop</option><option value='10'>Indesign</option><option value='11'>Jquery</option><option value='12'>Angular JS</option><option value='13'>Node JS</option><option value='14'>Illustrator</option><option value='15'>Dreamweaver</option><option value='16'>CorelDraw</option><option value='17'>Digital Marketing</option><option value='18'>SEO Analyst</option><option value='19'>SEM</option><option value='20'>SMO</option><option value='21'>SMM</option><option value='22'>Social Media Marketing</option><option value='23'>Affiliate Marketing</option><option value='24'>Content Writer</option><option value='25'>Mobile Marketing</option><option value='26'>PPC</option><option value='27'>Adwords</option><option value='28'>Google Analytics</option><option value='29'>3ds Max</option><option value='30'>Autocad</option><option value='31'>Autodesk Maya</option><option value='32'>Adobe After Effects</option><option value='33'>Eyeon Fusion</option><option value='34'>Mocha</option><option value='35'>Silhouette</option><option value='36'>Boujou</option><option value='37'>PF Track</option><option value='38'>Foundry Nuke</option><option value='39'>Adobe Premiere</option><option value='40'>AVID</option><option value='41'>FCP (Final Cut Pro)</option><option value='42'>Electrical/Switchgear</option><option value='43'>Engineering</option><option value='44'>Procurement</option><option value='45'>Construction</option><option value='46'>Environmental </option><option value='47'>Service</option><option value='48'>Facility management</option><option value='49'>Fertilizer/ Pesticides</option><option value='50'>Food & Packaged Food</option><option value='51'>Textiles / Yarn / Fabrics / Garments</option><option value='52'>Gems & Jewellery</option><option value='53'>GLASS</option><option value='54'>Government/ PSU/ Defence</option><option value='55'>Consumer </option><option value='56'>Electronics/Appliances</option><option value='57'>Hospitals/Healthcare/Diagnostics</option><option value='58'>HVAC</option><option value='59'>Hotels/ RestaurantImport / ExportIron/ Steel</option><option value='60'>Law Enforcement/Security Services</option><option value='61'>Market Research</option><option value='62'>Medical Transcription</option><option value='63'>Mining</option><option value='64'>NGO/Social Services</option><option value='65'>Non-Ferrous Metals (Aluminium, Zinc etc.)</option><option value='66'>Office Equipment/Automation</option><option value='67'>Paints</option><option value='68'>Paper</option><option value='69'>Printing/ Packaging</option><option value='70'>Public Relations (PR)</option><option value='71'>Semiconductor</option><option value='72'>Shipping/ Marine Services</option><option value='73'>Social Media</option><option value='74'>Oil and gas</option><option value='75'>Travel/ Tourism</option><option value='76'>Tyres</option><option value='77'>Wood</option><option value='78'>Other</option> 
+					</select>
+                </div> 
+                  <div class="col-md-12">
+					<p id="jobDesc"></p>
+				</div>
+                <div class="form-group">
+                  <label class="control-label">Job title</label>
+                  <input type="text" class="form-control" placeholder="Name" name="job_title" required>
+                </div>
+                <div class="form-group">
+                  <label class="control-label"></label>
+                  <label class="control-label">Expected salary</label>
+                  <select name="salary" id="salary" class="chosen">										
+						<option value="0">Fresher</option>
+													  <option value="1">1 Lakh(s) </option>
+													  <option value="2">2 Lakh(s) </option>
+													  <option value="3">3 Lakh(s) </option>
+													  <option value="4">4 Lakh(s) </option>
+													  <option value="5">5 Lakh(s) </option>
+													  <option value="6">6 Lakh(s) </option>
+													  <option value="7">7 Lakh(s) </option>
+													  <option value="8">8 Lakh(s) </option>
+													  <option value="9">9 Lakh(s) </option>
+													  <option value="10">10 Lakh(s) </option>
+													  <option value="11">11 Lakh(s) </option>
+													  <option value="12">12 Lakh(s) </option>
+													  <option value="13">13 Lakh(s) </option>
+													  <option value="14">14 Lakh(s) </option>
+													  <option value="15">15 Lakh(s) </option>
+													  <option value="16">16 Lakh(s) </option>
+													  <option value="17">17 Lakh(s) </option>
+													  <option value="18">18 Lakh(s) </option>
+													  <option value="19">19 Lakh(s) </option>
+													  <option value="20">20 Lakh(s) </option>
+													  <option value="21">21 Lakh(s) </option>
+													  <option value="22">22 Lakh(s) </option>
+													  <option value="23">23 Lakh(s) </option>
+													  <option value="24">24 Lakh(s) </option>
+													  <option value="25">25 Lakh(s) </option>
+													  <option value="26">26 Lakh(s) </option>
+													  <option value="27">27 Lakh(s) </option>
+													  <option value="28">28 Lakh(s) </option>
+													  <option value="29">29 Lakh(s) </option>
+													  <option value="30">30 Lakh(s) </option>
+													  <option value="31">31 Lakh(s) </option>
+													  <option value="32">32 Lakh(s) </option>
+													  <option value="33">33 Lakh(s) </option>
+													  <option value="34">34 Lakh(s) </option>
+													  <option value="35">35 Lakh(s) </option>
+													  <option value="36">36 Lakh(s) </option>
+													  <option value="37">37 Lakh(s) </option>
+													  <option value="38">38 Lakh(s) </option>
+													  <option value="39">39 Lakh(s) </option>
+													  <option value="40">40 Lakh(s) </option>
+													  <option value="41">41 Lakh(s) </option>
+													  <option value="42">42 Lakh(s) </option>
+													  <option value="43">43 Lakh(s) </option>
+													  <option value="44">44 Lakh(s) </option>
+													  <option value="45">45 Lakh(s) </option>
+													  <option value="46">46 Lakh(s) </option>
+													  <option value="47">47 Lakh(s) </option>
+													  <option value="48">48 Lakh(s) </option>
+													  <option value="49">49 Lakh(s) </option>
+													  <option value="50">50 Lakh(s) </option>
+													  <option value="50+">50+ Lakh</option>
+ 						  </select>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Job Category</label>
+                        <select name="category" id="category" class="chosen">										
+						<option value=1>Accountant Jobs</option><option value=2>Administration Jobs</option><option value=3>Advertising Jobs</option><option value=4> Airlines Jobs </option><option value=5> Architect Jobs</option><option value=6> Audit Jobs</option><option value=7> Aviation Jobs</option><option value=8> Back Office Jobs</option><option value=9> Banking Jobs</option><option value=10> Broking Jobs</option><option value=11> CAD CAM Jobs</option><option value=12> Chef Jobs</option><option value=13> Civil Engineering Jobs</option><option value=14> Construction Jobs</option><option value=15> Consulting Jobs</option><option value=16> Content Writer Jobs</option><option value=17> Corporate Planning Jobs</option><option value=18> CS Jobs</option><option value=19> Customer Service Jobs</option><option value=20> Data Entry Jobs</option><option value=21> Design Engineer Jobs</option><option value=22> Doctor Jobs</option><option value=23> Editing Jobs</option><option value=24> Education Jobs </option><option value=25> Equipment Operator Jobs</option><option value=26> Event Management Jobs</option><option value=27> Export Jobs</option><option value=28> Fashion Jobs</option><option value=29> Films Jobs </option><option value=30> Finance Jobs </option><option value=31> Food And Beverage Jobs </option><option value=32> Fresh Graduate Jobs </option><option value=33> Front Desk Jobs </option><option value=34> Front Office Jobs </option><option value=35> Garments Jobs </option><option value=36> General Trading Jobs </option><option value=37> Graphic Designer Jobs </option><option value=38> Guard Jobs </option><option value=39> Hardware Jobs </option><option value=40> Healthcare Jobs </option><option value=41> Hotel Jobs </option><option value=42> Housekeeping Jobs </option><option value=43> HR Jobs </option><option value=44> Import Jobs </option><option value=45> Industrial Jobs </option><option value=46> Industrial Relations Jobs </option><option value=47> Inspector Jobs </option><option value=48> Installation Jobs </option><option value=49> Insurance Jobs </option><option value=50> Interior Design Jobs </option><option value=51> IT Hardware Jobs </option><option value=52> IT Networking Jobs </option><option value=53> IT Software Jobs </option><option value=54> IT Software Services Jobs </option><option value=55> Journalism Jobs </option><option value=56> Languages Jobs </option><option value=57> Lawyer Jobs </option><option value=58> Legal Advisor Jobs </option><option value=59> Legal Jobs </option><option value=60> Logistics Jobs </option><option value=61> Maintenance Jobs </option><option value=62> Management Jobs </option><option value=63> Management Trainee Jobs </option><option value=64> Manufacturing Jobs </option><option value=65> Marine Jobs </option><option value=66> Marketing Jobs </option><option value=67> Media Planning Jobs </option><option value=68> Medical Research Jobs </option><option value=69> MR Jobs </option><option value=70> Nurse Jobs </option><option value=71> Oil And Gas Jobs </option><option value=72> Operation Jobs </option><option value=73> Petroleum Jobs </option><option value=74> Pharma Jobs </option><option value=75> PR Jobs </option><option value=76> Production Jobs </option><option value=77> Projects Jobs </option><option value=78> Purchase Jobs </option><option value=79> Quality Jobs </option><option value=80> Real Estate Jobs </option><option value=81> Repair Jobs </option><option value=82> Research And Development Jobs </option><option value=83> Restaurant Jobs </option><option value=84> Retailing Jobs </option><option value=85> Sales Jobs </option><option value=86> Secretary Jobs </option><option value=87> Security Jobs </option><option value=88> Shipping Jobs </option><option value=89> Site Engineering Jobs </option><option value=90> Supply Chain Jobs </option><option value=91> Tax Jobs </option><option value=92> Teaching Jobs </option><option value=93> Telecalling Jobs </option><option value=94> Telecom Jobs </option><option value=95> Testing Jobs </option><option value=96> Textile Jobs </option><option value=97> Ticketing Jobs </option><option value=98> Top Management Jobs </option><option value=99> Traveling Jobs </option><option value=100> TV Jobs </option><option value=101> Visualizer Jobs </option><option value=102> Web Designer Jobs </option><option value=103>Chefs</option><option value=104>Others</option><option value=105>Engineering</option><option value=106>venkaiah</option><option value=107>venkaiah</option><option value=108>Chowdary</option>						</select> 
+                  </div> 
+                <div class="form-group">
+                  <label class="control-label">Qualification</label>
+                  <select name="qualification" id='qualification' class="chosen">
+					<option value=1>Under Graduate</option><option value=2>Graduate</option>						</select>
+                </div>  
+                <div class="form-group">
+                  <label class="control-label">Address</label>
+                  <input type="text" class="form-control" placeholder="Address" name="address">
+                </div>
+                <div class="form-group">
+                  <label class="control-label"></label>
+                  <label class="control-label">City</label>
+                  <input type="text" class="form-control" placeholder="city" name="city" required>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">State</label>
+                  <input type="text" class="form-control" name="state"  placeholder="state">
+                </div> 
+                <div class="form-group">
+                  <label class="control-label">Pincode</label>
+                  <input type="text" class="form-control" name="zip" placeholder="PIN">
+                </div>  
+                  <div class="form-group">
+                  <button type="submit" class="btn btn-common" name="submit" value="submit">Submit</button>
+                </div>                                  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <!-- Content section End -->     
+       
+ 
+    <!-- Footer Section Start -->
+    <footer>
+      <!-- Footer Area Start -->
+      <section class="footer-Content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-12">
+              <div class="widget">
+                <div class="footer-logo"><img src="assets/img/logo-footer.png" alt=""></div>
+                <div class="textwidget">
+                  <p>Sed consequat sapien faus quam bibendum convallis quis in nulla. Pellentesque volutpat odio eget diam cursus semper.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-4 col-xs-12">
+              <div class="widget">
+                <h3 class="block-title">Quick Links</h3>
+                <ul class="menu">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">License</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="menu">
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Refferal Terms</a></li>
+                  <li><a href="#">Product License</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-12">
+              <div class="widget">
+                <h3 class="block-title">Subscribe Now</h3>
+                <p>Sed consequat sapien faus quam bibendum convallis.</p> 
+                <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                  <div class="form-group is-empty">
+                    <input type="email" value="" name="Email" class="form-control" id="EMAIL" placeholder="Enter Email..." required="">
+                    <button type="submit" name="subscribe" id="subscribes" class="btn btn-common sub-btn"><i class="lni-envelope"></i></button>
+                    <div class="clearfix"></div>
+                  </div>
+                </form>
+                <ul class="mt-3 footer-social">
+                  <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                </ul>        
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer area End -->
+      
+      <!-- Copyright Start  -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="site-info text-center">
+                <p>Designed and Developed by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+              </div>     
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright End -->
+    </footer>
+    <!-- Footer Section End -->  
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-arrow-up"></i>
+    </a> 
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+
+    <script src="assets/js/owl.carousel.min.js"></script>     
+    <script src="assets/js/jquery.slicknav.js"></script>     
+    <script src="assets/js/jquery.counterup.min.js"></script>      
+    <script src="assets/js/waypoints.min.js"></script>     
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>   
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>

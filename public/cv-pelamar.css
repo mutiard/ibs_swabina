@@ -1,0 +1,372 @@
+body {
+    background-color: rgba(52, 73, 94,1.0);
+    margin: 0;
+    font-family: 'Open Sans';
+    padding: 10px 0;
+    font-size: 10pt;
+    color: #000;
+    position: relative;
+}
+
+#download {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(22, 160, 133,1.0);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+#download:hover {
+    opacity: 1;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {   
+    text-align: right !important;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.email {
+    text-transform: none !important;
+}
+
+.container {
+    width: 21cm;
+    /*height: 30.9cm;*/
+    margin: 30px auto;
+    padding: 40px 30px 30px;
+    background-color: #FFF;
+}
+
+p {
+    margin: 0;
+}
+
+.english-field {
+    font-style: italic;
+}
+
+/*HEADER*/
+.header {
+    position: relative;
+}
+
+.header-top {
+    text-align: left;
+    font-size: 16pt;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #BBB;
+}
+
+#header-top-main {
+    margin-left: 130px;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.header-top .english-field {
+    font-size: 14px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+#logo img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+#foto {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border-left: 15px solid #fff;
+    background-color: #fff;
+}
+
+#foto img {
+    max-width: 120px;
+    max-height: 150px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(44,62,80,0.25);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(44,62,80,0.25);
+    box-shadow: 0px 0px 0px 1px rgba(44,62,80,0.25);
+}
+
+/*NOTE*/
+#note {
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+#note p {
+    margin-left: 10px;
+}
+
+/*BODY*/
+.body {
+    margin-top: 10px;
+    min-height: 60px;
+    line-height: 1;
+}
+
+.section-header {
+    font-weight: bold;
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 10px;  
+    margin-top: 30px;
+}
+
+.section-body .section-row {
+    clear: both;
+    margin-top: 5px;
+    min-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-body .section-row-sub {
+    clear: both;
+    margin-top: 5px;
+    min-height: 35px;
+}
+
+.section-body .section-row:first-child {
+    margin-top: 10px;
+}
+
+.section-number {
+    float: left;
+    width: 20px;
+}
+
+.section-body {
+    margin-left: 10px;
+}
+
+.section-foto {
+    position: relative;
+}
+
+.section-body .main-field {
+    clear: both;
+}
+
+.section-body .english-field {
+    font-size: 8pt;
+}
+
+.section-body label {
+    float: left;
+    width: 160px;
+}
+
+.sub-row label {
+    float: left;
+    width: 130px;
+    margin-left: 30px;
+}
+
+.section-body .content {
+    margin-left: 170px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+#minat .content {
+    line-height: 1em;
+}
+
+#minat .section-row {
+    min-height: 25px;
+}
+
+#sosial .section-row .main-field-number {
+    float: left;
+    width: 25px;
+}
+
+#sosial .section-row .main-field-content {
+    float: left;
+    width: 100px !important;
+}
+
+#sosial .section-row .sub-field {
+    margin-left: 25px;
+}
+
+#informasi .section-row {
+    margin-top: 20px;
+    min-height: 25px;
+}
+
+#informasi .section-row .main-field-number {
+    float: left;
+    width: 25px;
+}
+
+#informasi .section-row label {
+    float: left;
+    width: 330px !important;
+}
+
+#informasi .section-row .main-field-content {
+    float: left;
+    width: 300px !important;
+}
+
+#informasi .section-row .content {
+    margin-left: 330px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.wide-row {
+    border-bottom: none !important;
+}
+
+.wide-row label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wide-row .content {
+    margin-left: 15px;
+}
+
+.wide-row .content table {
+    font-size: 8pt;
+    width: 100%;
+    /*width: 725px !important;*/
+    display: table;
+    border-spacing: 0;
+    line-height: 1.3;
+    table-layout: fixed;
+}
+
+.wide-row .content thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+.wide-row .content table th {
+    text-transform: none;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+}
+
+.wide-row .content table th:first-child {
+    border-left: 1px solid #bbb;
+}
+
+.wide-row .content table .colspan {
+    border-bottom: none;
+}
+
+.wide-row .content table .colspan-row {
+    border-left: none !important;
+}
+
+.wide-row .content tr {
+    display: table-row;
+    vertical-align: inherit;
+    margin: 0;
+}
+
+.wide-row .content table td {
+    text-transform: none;
+    padding: 3px 5px;
+    vertical-align: top;
+    border: 1px solid #bbb;
+    border-left: none;
+    border-bottom: none;
+    word-wrap: break-word;
+}
+
+.wide-row .content table td:first-child {
+    border-left: 1px solid #bbb;
+}
+
+.wide-row .content table tr:last-child td {
+    border-bottom: 1px solid #bbb;
+}
+
+.wide-row .main-field-number {
+    float: left;
+    width: 15px;
+}
+
+.wide-row .main-field-content {
+    float: left;
+    width: 720px;
+}
+
+/*FOOTER*/
+#footer {
+    margin-top: 40px;
+}
+
+@media print {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 21cm;
+        height: 29.7cm;
+    }
+
+    .dif-page {
+        margin-top: 2cm;
+    }
+
+    #download {
+        display: none;
+    }
+    
+    body {
+        background-color: #FFF;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.long-content {
+    word-wrap: break-word;
+}
